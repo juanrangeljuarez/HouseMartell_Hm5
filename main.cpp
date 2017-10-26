@@ -1,6 +1,15 @@
 #include <iostream>
+#include "Roman.h"
 
-int main() {
+
+int main()
+{
+    testConstructor();
+    testOperatorPlus();
+    testOperatorPlusEqual();
+    testOperatorIncrement();
+    testOutput();
+    testConsoleIO();
 
     return 0;
-}
+};
