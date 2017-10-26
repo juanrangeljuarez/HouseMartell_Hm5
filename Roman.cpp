@@ -85,6 +85,7 @@ void testOutput()
 
 }
 
+
 void testConsoleIO()
 {
     //Test reading in the data using the extraction operator >>
@@ -97,3 +98,85 @@ void testConsoleIO()
     cout << "testConsoleIO #2" << endl << "If this says 260, this test passed: " << a << endl;
 
 }
+
+//Our definitions:
+/*!
+ *
+ * @return
+ */
+string Roman::convertToRoman() const
+{
+
+    return std::string();
+}
+/*!
+ *
+ */
+void Roman::convertFromRoman(const string &)
+{
+
+}
+/*!
+ *
+ * @return
+ */
+Roman Roman::operator+(const Roman &) const
+{
+    return Roman();
+}
+/*!
+ *
+ * @return
+ */
+Roman Roman::operator+(const int) const
+{
+    return Roman();
+}
+/*!
+ *
+ * @return
+ */
+Roman operator+(const int, const Roman &)
+{
+    return Roman();
+}
+/*!
+ *
+ */
+void Roman::operator+=(const Roman &)
+{
+
+}
+/*!
+ *
+ */
+void Roman::operator+=(const int)
+{
+
+}
+/*!
+ *
+ * @return
+ */
+Roman Roman::operator++()
+{
+    return Roman();
+}
+/*!
+ *
+ * @return
+ */
+ostream &operator<<(ostream &, const Roman &)
+{
+    return <#initializer#>;
+}
+/*!
+ *
+ * @return
+ */
+istream &operator>>(istream &, Roman &)
+{
+    return <#initializer#>;
+}
+
+

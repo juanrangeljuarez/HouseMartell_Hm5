@@ -35,4 +35,10 @@ public:
     friend void testOutput(); //Another test function that needs to access private class members.
 };
 
+void testConstructor();
+void testOperatorPlus();
+void testOperatorPlusEqual();
+void testOperatorIncrement();
+void testConsoleIO();
+
 #endif //HOUSEMARTELL_HM5_ROMAN_H
